@@ -1,0 +1,4 @@
+﻿percentile,threshold,validation_normal_over_threshold
+90,0.065345,5
+95,0.067469,3
+99,0.069548,1

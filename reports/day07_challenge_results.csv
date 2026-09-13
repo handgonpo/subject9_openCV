@@ -1,0 +1,6 @@
+﻿file,actual,anomaly_score,threshold,predicted,result
+normal_blur.png,Normal,0.065173,0.067469,Normal,PASS
+normal_bright.png,Normal,0.104318,0.067469,Anomaly,FP
+normal_dark.png,Normal,0.123422,0.067469,Anomaly,FP
+normal_rotation.png,Normal,0.054642,0.067469,Normal,PASS
+normal_shift.png,Normal,0.076099,0.067469,Anomaly,FP

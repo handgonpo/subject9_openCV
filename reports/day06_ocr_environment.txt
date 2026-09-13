@@ -1,0 +1,9 @@
+OS: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+OpenCV: 5.0.0
+Tesseract Path: /usr/bin/tesseract
+Tesseract: 5.3.4
+Languages:
+List of available languages in "/usr/share/tesseract-ocr/5/tessdata/" (3):
+eng
+kor
+osd
