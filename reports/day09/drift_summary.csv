@@ -1,0 +1,3 @@
+﻿condition,image_count,brightness_mean,anomaly_score_mean,anomaly_score_std,false_positive_rate
+baseline,20,137.69355000000002,0.0516335,0.009596725535306298,0.1
+lighting,20,89.26185000000001,0.1128851,0.005740708079377628,1.0

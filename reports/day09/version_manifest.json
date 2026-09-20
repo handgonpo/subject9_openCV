@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-14T13:36:56",
+  "git_commit": "28fbca967a0ed8d41435fd522d49c1dad6f4041d",
+  "datasets": {
+    "day05_resized": {
+      "exists": true,
+      "file_count": 18,
+      "fingerprint": "ab41261719c342e7b7e16f449da178195fb9c583ea767b430bd8ed1471691f12"
+    },
+    "day06_ocr_product": {
+      "exists": true,
+      "file_count": 6,
+      "fingerprint": "0edfbcecc95a19433566ec12674cec23f17ef8835953131dc00f08a3aac33c34"
+    },
+    "day07_normal_test": {
+      "exists": true,
+      "file_count": 20,
+      "fingerprint": "55db4c1280273e153b54c6b22d5f14d46f9bdfe003e183a171217544d499186b"
+    },
+    "day08_lowdata": {
+      "exists": true,
+      "file_count": 74,
+      "fingerprint": "6a1cf691140e5f215331934e318433b21420b631b1a03a3af761bf3fce590ff2"
+    }
+  },
+  "configs": {
+    "configs/day05_logo_rules.json": {
+      "exists": true,
+      "size": 495,
+      "sha256": "1c94cbe5eb74a5510d8c49b1628b1a17e2c846d51fb99671b9ff9128ec9125ac"
+    },
+    "configs/day06_ocr_rules.json": {
+      "exists": true,
+      "size": 855,
+      "sha256": "45c87eaf639d1846f304e58478a26447f8309eecb9172a45e74b85f3d2319963"
+    },
+    "configs/day07_anomaly_rules.json": {
+      "exists": true,
+      "size": 442,
+      "sha256": "322d854e8413ee3c3b0c1312b22216a04e4c4bd931bf75eac9f2141e007dec7f"
+    },
+    "configs/day08_one_shot_rules.json": {
+      "exists": true,
+      "size": 475,
+      "sha256": "6e047788b2a3621866a4dd8b937c2eac0daf4fea754b3215021e1af1a87adc76"
+    },
+    "configs/day08_fewshot_config.json": {
+      "exists": true,
+      "size": 331,
+      "sha256": "8f2ee3fb32634b5e3bd413d2aafcab4e2f6ec061d34288627edcb1acd2a2b60d"
+    }
+  },
+  "artifacts": {
+    "artifacts/day07/normal_reference.npz": {
+      "exists": true,
+      "size": 125856,
+      "sha256": "72ad315aa72e840e619c66bca9be41a2d475f73cf34882fbfa81216edccb9b8a"
+    },
+    "artifacts/day08/one_shot_reference.npy": {
+      "exists": true,
+      "size": 2176,
+      "sha256": "86ee275558827c4bc9376c7d5c3133ceb9c4fbaa2ebf6728d0e64c10eb236630"
+    },
+    "artifacts/day08/fewshot_prototypes.npz": {
+      "exists": true,
+      "size": 4288,
+      "sha256": "c952e863d21a60dfa7e4d525dfb42b93d2076992c672cb14310470c00ac71e6e"
+    }
+  },
+  "result_sources": {
+    "reports/day05_calibration_measurements.csv": {
+      "exists": true,
+      "size": 594,
+      "sha256": "6fa8f9d02803fb134c08525c8380cb2b48188dc286fe465c89758837b2441f58"
+    },
+    "reports/day06_ocr_results.csv": {
+      "exists": true,
+      "size": 953,
+      "sha256": "59391ba95af10eb3a0dbcd1d51cc450d1d8da4e7307b07c38f80bd82df69c10d"
+    },
+    "reports/day07_anomaly_scores.csv": {
+      "exists": true,
+      "size": 8266,
+      "sha256": "3bbf5efcee27fcfc70817bdb3d09e105c3aa71a224bd616907e2fb651dce4357"
+    },
+    "reports/day08_method_comparison.csv": {
+      "exists": true,
+      "size": 144,
+      "sha256": "1d844714bb9336f92996a5fe71a82a0016059c74b9dfb12f5f804c6d441ceed0"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿product_id,rule_status,rule_reason,ocr_status,ocr_reason,anomaly_status,anomaly_score,anomaly_threshold,expected_final
+CASE-001,OK,,OK,,Normal,0.050602,0.067469,OK
+CASE-002,NG,LOW_SIFT_MATCH,OK,,Normal,0.059035,0.067469,NG
+CASE-003,OK,,NG,NG_EXPECTED_MISMATCH,Normal,0.050602,0.067469,NG
+CASE-004,OK,,OK,,Anomaly,0.084336,0.067469,NG
+CASE-005,NG,LOW_INLIER_RATIO,NG,NG_FORMAT,Anomaly,0.101204,0.067469,NG

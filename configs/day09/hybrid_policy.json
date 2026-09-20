@@ -1,0 +1,7 @@
+{
+  "policy_version": "day09-hybrid-v1.0",
+  "rule_required": true,
+  "ocr_required": true,
+  "anomaly_required": true,
+  "final_rule": "RULE_OK AND OCR_OK AND ANOMALY_NORMAL"
+}

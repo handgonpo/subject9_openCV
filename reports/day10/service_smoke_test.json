@@ -1,0 +1,16 @@
+{
+  "request_id": "ea830772aaa4",
+  "inspected_at": "2026-09-15T18:20:34",
+  "service_version": "day10-service-v1.0",
+  "inspection_module": "day06_ocr",
+  "rule_version": "day06-ocr-v1.0",
+  "file_name": "0637145699424_side.png",
+  "measurements": {
+    "ocr_text": "0637145699424",
+    "expected_text": "0637145699424",
+    "pattern_ok": true,
+    "expected_match": true
+  },
+  "final_decision": "OK",
+  "reasons": []
+}
